@@ -7,10 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    My name is
+    <p id='star'></p>
+    <p id="cucumber"></p>
     <script>
-        console.log('hello');
-        console.log('goodbye');
+        let a='Twinkle';
+        let b='little';
+        let c='star';
+        let s=' ';
+        let z=',';
+        console.log(a+z+s+a+s+b+s+c);
+        document.getElementById('star').innerHTML=(a+z+s+a+s+b+s+c+"<br>");
+        a = 'Growing';
+        b = 'green';
+        c = 'cucumber';
+        console.log(a+z+s+a+s+b+s+c);
+        document.getElementById('star').innerHTML+=(a+z+s+a+s+b+s+c);
     </script>
 </body>
 </html>    
