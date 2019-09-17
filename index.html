@@ -23,5 +23,32 @@
         console.log(a+z+s+a+s+b+s+c);
         document.getElementById('star').innerHTML+=(a+z+s+a+s+b+s+c);
     </script>
+
+
+    
+
+
+    <br><br><br>
+    <input id="btnClick" type="button" value="Click Me!" onclick="doClick()"/>
+    <script>
+        function doClick() {
+            let n = 0;
+            n = n + 1;
+            document.getElementById('btnClick').value = "I've been clicked " +
+        }
+    </script>
+    
+    <input id="btnEx2" type="button" value="Exercise 2" onclick="doEx2()"/>
+    <div id="Ex2"></div>
+    <p id='equation'></p>
+    <script>
+        function doEx2() {
+            const x = 10;
+            const y = 7;
+            let ans = x+y;
+            ans += x-y;
+            document.getElementById('equation').innerHTML=ans;
+        }
+    </script>
 </body>
 </html>    
