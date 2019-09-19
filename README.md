@@ -1,1 +1,1 @@
-# My-First-JS
+! Java Script Exercises !
